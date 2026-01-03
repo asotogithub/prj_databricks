@@ -223,12 +223,12 @@ storage_path = "abfss://raw@adlsprojectsmartdata.dfs.core.windows.net"
 ```bash
 git add .
 git commit -m "✨ feat: mejoras en pipeline"
-git push origin master
+git push origin dev
 ```
 
 **GitHub Actions ejecutará**:
-- 📤 Deploy de notebooks a `/Production/ETL-APPLE`
-- 🔧 Creación del workflow `WF_PROD_ETL_APPLE_SALES`
+- 📤 Deploy de notebooks a `/Production/ETL-AGUA`
+- 🔧 Creación del workflow `WF_PROD_ETL_AGUA_SALES`
 - ▶️ Ejecución completa:  Bronze → Silver → Gold
 - 📧 Notificaciones de resultados
 
@@ -237,7 +237,7 @@ git push origin master
 1. Ir al tab **Actions** en GitHub
 2. Seleccionar **Deploy ETL Apple Sales And Warranty**
 3. Click en **Run workflow**
-4. Seleccionar rama `main`
+4. Seleccionar rama `dev`
 5. Click en **Run workflow**
 
 ### 🔧 Ejecución Local en Databricks
@@ -317,7 +317,7 @@ https://github.com/guaru/project-databricks/tree/dev/dashboards
 
 <div align="center">
 
-### Alejandro de Jesus Ventura Martinez
+### Abel Rolando Soto Vera
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-ventura-martinez-049009142/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guaru)
